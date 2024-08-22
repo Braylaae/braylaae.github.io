@@ -522,7 +522,7 @@ We now have a fairly plain website but it's a website! Let's add some style. Her
        </details>
        <br>
 
-  - **FIND:** Open the file named `style.css`. All of the CSS rules will go in this CSS file.
+sdrfrgthu  - **FIND:** Open the file named `style.css`. All of the CSS rules will go in this CSS file.
 
 - **9b.** **CODE:** Copy the entire section below and place it inside the `style.css` file
 
