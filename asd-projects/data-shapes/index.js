@@ -271,5 +271,4 @@ dataShapes.push(shape)
   function animateSpin() {
     animationDetails.angle += 4;
     $("#shape").css("transform", `rotate(${animationDetails.angle}deg)`);
-  }
-});
+
