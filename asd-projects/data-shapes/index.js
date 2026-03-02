@@ -81,14 +81,13 @@ dataShapes.push(shape)
   function staticDisplay() {
     // TODO 3-b: call your handleStatic function
  handleStatic(dataShapes[currentIndex]); 
- {
+  }
   
-  function goodDisplay() {
     function goodDisplay() {
   var currentShape = dataShapes[currentIndex];
   handleGood(currentShape.color, currentShape.shape, currentShape.repeat);
 }
-  }
+  
 
   function badDisplay() {
     // TODO 5-b: call your handleBad function
