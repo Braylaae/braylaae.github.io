@@ -14,15 +14,62 @@ The CSS ids you will work with are:
 ///////////////////////////////////////////////////////////////////////
 
 // TODO 2: Implement bubbleSort
+function bubbleSort(array) {
+  for (var i = 0; i < array.length; i++) {
+    for (var j = 0; j < array.length - 1 - i; j++) {
+      if (array[j] > array[j + 1]) {
+        swap(array, j, j + 1);
+      }
+    }
+  }
+  return array;
+}
 
 
 // TODO 3: Implement quickSort
+function quickSort(array, left, right) {
+  var index;
+  if (array.length > 1) {
+    index = partition(array, left, right);
+    if (left < index - 1) {
+      quickSort(array, left, index - 1);
+    }
+    if (index < right) {
+      quickSort(array, index, right);
+    }
+  }
+  return array;
+}
 
 
 // TODOs 4 & 5: Implement partition
+    while (array[j] > pivot) {
+      j--;
+    }
+    if (i <= j) {
+      swap(array, i, j);
+      i++;
+      j--;
+    }
+  {
+  return i;
+}
 
 
 // TODO 1: Implement swap
+function swap(array, i, j) {
+  var temp = array[i];
+  array[i] = array[j];
+  }  array[j] = temp;
+
+
+
+
+// TODO 1: Implement swap
+
+//////////////////////////// HELPER FUNCTIONS /////////////////////////
+
+// this function makes the program pause by SLEEP_AMOUNT milliseconds whenever it is called
 
 
 ///////////////////////////////////////////////////////////////////////
